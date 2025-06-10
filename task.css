@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #ffff;
+    font-family: sans-serif;
+}
+
+header{
+    height: 100vh;
+    background:  linear-gradient(90deg,rgba(0, 0, 0, 0.7)),url('./task aassests/penthouse.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.navbar .nav-logo{
+    margin-left: 70px;
+}
+.navbar .nav-links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar .cnt-btn, .hero-section .text .buttons .order-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 2px;
+}
+
+.navbar .book-btn, .hero-section .text .buttons .book-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 2px solid orangered;
+}
+
+.hero-section{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+
+    /* padding: 0 50px 100px 50px;
+    max-width: 700px; */
+}
+
+.hero-section .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.hero-section .heading h2{
+    font-size: 40px;
+}
+
+.hero-section .heading p{
+    font-size: 16px;
+}
+
+
+.hero-section .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 50px;
+    gap: 30px;
+}
+
+.hero-section .text h4{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.hero-section .highlight{
+    color: orangered;
+    font-weight: 700;
+}
+
+.hero-section .text .buttons{
+   display: flex;
+   gap: 20px;
+}
+
+@media(max-width : 900px){
+
+}
